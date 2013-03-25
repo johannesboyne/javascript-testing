@@ -1,0 +1,20 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="fetestlibs/mocha.css" />
+</head>
+<body>
+	<div id="mocha"></div>
+	<script src="fetestlibs/mocha.chai.min.js"></script>
+	<script>
+	mocha.ui('bdd'); 
+	mocha.reporter('html');
+	assert = chai.assert;
+	</script>
+	<script src="test.fe.js"></script>
+	<script>
+	if (window.mochaPhantomJS) { mochaPhantomJS.run(); }
+	else { mocha.run(); }
+	</script>
+</body>
+</html>

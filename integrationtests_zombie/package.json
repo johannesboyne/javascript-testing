@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "zombie": "~1.4.1"
+  }
+}
