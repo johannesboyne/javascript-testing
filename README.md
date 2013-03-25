@@ -104,7 +104,7 @@ try each test runner
 
 ```shell
 $ make doalltests
-```
+``
 
 ## Preffered Testframeworks
 
